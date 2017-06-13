@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF0A9AF1EEFEB1E002F6733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9AE1EEFEB1E002F6733 /* main.m */; };
+		1BF0A9B21EEFEB1E002F6733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B11EEFEB1E002F6733 /* AppDelegate.m */; };
+		1BF0A9B51EEFEB1E002F6733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B41EEFEB1E002F6733 /* ViewController.m */; };
+		1BF0A9B81EEFEB1E002F6733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B61EEFEB1E002F6733 /* Main.storyboard */; };
+		1BF0A9BA1EEFEB1E002F6733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B91EEFEB1E002F6733 /* Assets.xcassets */; };
+		1BF0A9BD1EEFEB1E002F6733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0A9BB1EEFEB1E002F6733 /* LaunchScreen.storyboard */; };
+		1BF0A9C81EEFEB1E002F6733 /* googleintegrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9C71EEFEB1E002F6733 /* googleintegrateTests.m */; };
+		1BF0A9D31EEFEB1E002F6733 /* googleintegrateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9D21EEFEB1E002F6733 /* googleintegrateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF0A9C41EEFEB1E002F6733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF0A9A21EEFEB1E002F6733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF0A9A91EEFEB1E002F6733;
+			remoteInfo = googleintegrate;
+		};
+		1BF0A9CF1EEFEB1E002F6733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF0A9A21EEFEB1E002F6733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF0A9A91EEFEB1E002F6733;
+			remoteInfo = googleintegrate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF0A9AA1EEFEB1E002F6733 /* googleintegrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleintegrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF0A9AE1EEFEB1E002F6733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BF0A9B01EEFEB1E002F6733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BF0A9B11EEFEB1E002F6733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BF0A9B31EEFEB1E002F6733 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BF0A9B41EEFEB1E002F6733 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BF0A9B71EEFEB1E002F6733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BF0A9B91EEFEB1E002F6733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BF0A9BC1EEFEB1E002F6733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BF0A9BE1EEFEB1E002F6733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF0A9C31EEFEB1E002F6733 /* googleintegrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleintegrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF0A9C71EEFEB1E002F6733 /* googleintegrateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleintegrateTests.m; sourceTree = "<group>"; };
+		1BF0A9C91EEFEB1E002F6733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF0A9CE1EEFEB1E002F6733 /* googleintegrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleintegrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF0A9D21EEFEB1E002F6733 /* googleintegrateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleintegrateUITests.m; sourceTree = "<group>"; };
+		1BF0A9D41EEFEB1E002F6733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF0A9A71EEFEB1E002F6733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9C01EEFEB1E002F6733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9CB1EEFEB1E002F6733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF0A9A11EEFEB1E002F6733 = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9AC1EEFEB1E002F6733 /* googleintegrate */,
+				1BF0A9C61EEFEB1E002F6733 /* googleintegrateTests */,
+				1BF0A9D11EEFEB1E002F6733 /* googleintegrateUITests */,
+				1BF0A9AB1EEFEB1E002F6733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF0A9AB1EEFEB1E002F6733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9AA1EEFEB1E002F6733 /* googleintegrate.app */,
+				1BF0A9C31EEFEB1E002F6733 /* googleintegrateTests.xctest */,
+				1BF0A9CE1EEFEB1E002F6733 /* googleintegrateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF0A9AC1EEFEB1E002F6733 /* googleintegrate */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9B01EEFEB1E002F6733 /* AppDelegate.h */,
+				1BF0A9B11EEFEB1E002F6733 /* AppDelegate.m */,
+				1BF0A9B31EEFEB1E002F6733 /* ViewController.h */,
+				1BF0A9B41EEFEB1E002F6733 /* ViewController.m */,
+				1BF0A9B61EEFEB1E002F6733 /* Main.storyboard */,
+				1BF0A9B91EEFEB1E002F6733 /* Assets.xcassets */,
+				1BF0A9BB1EEFEB1E002F6733 /* LaunchScreen.storyboard */,
+				1BF0A9BE1EEFEB1E002F6733 /* Info.plist */,
+				1BF0A9AD1EEFEB1E002F6733 /* Supporting Files */,
+			);
+			path = googleintegrate;
+			sourceTree = "<group>";
+		};
+		1BF0A9AD1EEFEB1E002F6733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9AE1EEFEB1E002F6733 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BF0A9C61EEFEB1E002F6733 /* googleintegrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9C71EEFEB1E002F6733 /* googleintegrateTests.m */,
+				1BF0A9C91EEFEB1E002F6733 /* Info.plist */,
+			);
+			path = googleintegrateTests;
+			sourceTree = "<group>";
+		};
+		1BF0A9D11EEFEB1E002F6733 /* googleintegrateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0A9D21EEFEB1E002F6733 /* googleintegrateUITests.m */,
+				1BF0A9D41EEFEB1E002F6733 /* Info.plist */,
+			);
+			path = googleintegrateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF0A9A91EEFEB1E002F6733 /* googleintegrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF0A9D71EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrate" */;
+			buildPhases = (
+				1BF0A9A61EEFEB1E002F6733 /* Sources */,
+				1BF0A9A71EEFEB1E002F6733 /* Frameworks */,
+				1BF0A9A81EEFEB1E002F6733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googleintegrate;
+			productName = googleintegrate;
+			productReference = 1BF0A9AA1EEFEB1E002F6733 /* googleintegrate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BF0A9C21EEFEB1E002F6733 /* googleintegrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF0A9DA1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateTests" */;
+			buildPhases = (
+				1BF0A9BF1EEFEB1E002F6733 /* Sources */,
+				1BF0A9C01EEFEB1E002F6733 /* Frameworks */,
+				1BF0A9C11EEFEB1E002F6733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF0A9C51EEFEB1E002F6733 /* PBXTargetDependency */,
+			);
+			name = googleintegrateTests;
+			productName = googleintegrateTests;
+			productReference = 1BF0A9C31EEFEB1E002F6733 /* googleintegrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF0A9CD1EEFEB1E002F6733 /* googleintegrateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF0A9DD1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateUITests" */;
+			buildPhases = (
+				1BF0A9CA1EEFEB1E002F6733 /* Sources */,
+				1BF0A9CB1EEFEB1E002F6733 /* Frameworks */,
+				1BF0A9CC1EEFEB1E002F6733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF0A9D01EEFEB1E002F6733 /* PBXTargetDependency */,
+			);
+			name = googleintegrateUITests;
+			productName = googleintegrateUITests;
+			productReference = 1BF0A9CE1EEFEB1E002F6733 /* googleintegrateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF0A9A21EEFEB1E002F6733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = macserver;
+				TargetAttributes = {
+					1BF0A9A91EEFEB1E002F6733 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1BF0A9C21EEFEB1E002F6733 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1BF0A9A91EEFEB1E002F6733;
+					};
+					1BF0A9CD1EEFEB1E002F6733 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1BF0A9A91EEFEB1E002F6733;
+					};
+				};
+			};
+			buildConfigurationList = 1BF0A9A51EEFEB1E002F6733 /* Build configuration list for PBXProject "googleintegrate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF0A9A11EEFEB1E002F6733;
+			productRefGroup = 1BF0A9AB1EEFEB1E002F6733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF0A9A91EEFEB1E002F6733 /* googleintegrate */,
+				1BF0A9C21EEFEB1E002F6733 /* googleintegrateTests */,
+				1BF0A9CD1EEFEB1E002F6733 /* googleintegrateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF0A9A81EEFEB1E002F6733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF0A9BD1EEFEB1E002F6733 /* LaunchScreen.storyboard in Resources */,
+				1BF0A9BA1EEFEB1E002F6733 /* Assets.xcassets in Resources */,
+				1BF0A9B81EEFEB1E002F6733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9C11EEFEB1E002F6733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9CC1EEFEB1E002F6733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF0A9A61EEFEB1E002F6733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF0A9B51EEFEB1E002F6733 /* ViewController.m in Sources */,
+				1BF0A9B21EEFEB1E002F6733 /* AppDelegate.m in Sources */,
+				1BF0A9AF1EEFEB1E002F6733 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9BF1EEFEB1E002F6733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF0A9C81EEFEB1E002F6733 /* googleintegrateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF0A9CA1EEFEB1E002F6733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF0A9D31EEFEB1E002F6733 /* googleintegrateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF0A9C51EEFEB1E002F6733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF0A9A91EEFEB1E002F6733 /* googleintegrate */;
+			targetProxy = 1BF0A9C41EEFEB1E002F6733 /* PBXContainerItemProxy */;
+		};
+		1BF0A9D01EEFEB1E002F6733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF0A9A91EEFEB1E002F6733 /* googleintegrate */;
+			targetProxy = 1BF0A9CF1EEFEB1E002F6733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BF0A9B61EEFEB1E002F6733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF0A9B71EEFEB1E002F6733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BF0A9BB1EEFEB1E002F6733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BF0A9BC1EEFEB1E002F6733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BF0A9D51EEFEB1E002F6733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BF0A9D61EEFEB1E002F6733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF0A9D81EEFEB1E002F6733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = googleintegrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BF0A9D91EEFEB1E002F6733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = googleintegrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BF0A9DB1EEFEB1E002F6733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = googleintegrateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleintegrate.app/googleintegrate";
+			};
+			name = Debug;
+		};
+		1BF0A9DC1EEFEB1E002F6733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = googleintegrateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/googleintegrate.app/googleintegrate";
+			};
+			name = Release;
+		};
+		1BF0A9DE1EEFEB1E002F6733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = googleintegrateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = googleintegrate;
+			};
+			name = Debug;
+		};
+		1BF0A9DF1EEFEB1E002F6733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = googleintegrateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bliss.googleintegrateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = googleintegrate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF0A9A51EEFEB1E002F6733 /* Build configuration list for PBXProject "googleintegrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF0A9D51EEFEB1E002F6733 /* Debug */,
+				1BF0A9D61EEFEB1E002F6733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF0A9D71EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF0A9D81EEFEB1E002F6733 /* Debug */,
+				1BF0A9D91EEFEB1E002F6733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BF0A9DA1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF0A9DB1EEFEB1E002F6733 /* Debug */,
+				1BF0A9DC1EEFEB1E002F6733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BF0A9DD1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF0A9DE1EEFEB1E002F6733 /* Debug */,
+				1BF0A9DF1EEFEB1E002F6733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF0A9A21EEFEB1E002F6733 /* Project object */;
+}
