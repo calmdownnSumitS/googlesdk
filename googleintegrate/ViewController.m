@@ -16,12 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [GIDSignIn sharedInstance].uiDelegate = self;
 }
+- (IBAction)didTapSignOut:(id)sender {
+    [[GIDSignIn sharedInstance] signOut];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

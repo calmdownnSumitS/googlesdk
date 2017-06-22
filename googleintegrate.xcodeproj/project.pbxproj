@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1833B2399055BD5C11AB9A8F /* libPods-googleintegrate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AD8155601716041A3C6B19 /* libPods-googleintegrate.a */; };
 		1BF0A9AF1EEFEB1E002F6733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9AE1EEFEB1E002F6733 /* main.m */; };
 		1BF0A9B21EEFEB1E002F6733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B11EEFEB1E002F6733 /* AppDelegate.m */; };
 		1BF0A9B51EEFEB1E002F6733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9B41EEFEB1E002F6733 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		1BF0A9BD1EEFEB1E002F6733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0A9BB1EEFEB1E002F6733 /* LaunchScreen.storyboard */; };
 		1BF0A9C81EEFEB1E002F6733 /* googleintegrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9C71EEFEB1E002F6733 /* googleintegrateTests.m */; };
 		1BF0A9D31EEFEB1E002F6733 /* googleintegrateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0A9D21EEFEB1E002F6733 /* googleintegrateUITests.m */; };
+		1BF0A9E11EEFEC9C002F6733 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BF0A9E01EEFEC9C002F6733 /* GoogleService-Info.plist */; };
+		BF73F206F6496EAEE9AD339D /* libPods-googleintegrateUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7D7D75DB6F959589E1BDE6 /* libPods-googleintegrateUITests.a */; };
+		C929BCB63D58E88374F545E7 /* libPods-googleintegrateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18D6F6455931CFB2F5A0EF /* libPods-googleintegrateTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		1BF0A9CE1EEFEB1E002F6733 /* googleintegrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleintegrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF0A9D21EEFEB1E002F6733 /* googleintegrateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleintegrateUITests.m; sourceTree = "<group>"; };
 		1BF0A9D41EEFEB1E002F6733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF0A9E01EEFEC9C002F6733 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BE3D994B02DA1AC79711D6E /* Pods-googleintegrateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrateUITests/Pods-googleintegrateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C944CE6DF381999E8B37EEE /* Pods-googleintegrateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrateTests/Pods-googleintegrateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90AE90375741FAC7BBDE123B /* Pods-googleintegrateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrateTests/Pods-googleintegrateTests.release.xcconfig"; sourceTree = "<group>"; };
+		93D5109F721AA669FA8FF720 /* Pods-googleintegrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrate.release.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrate/Pods-googleintegrate.release.xcconfig"; sourceTree = "<group>"; };
+		AB7D7D75DB6F959589E1BDE6 /* libPods-googleintegrateUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleintegrateUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFA34740E6FBE01E2A9CEEC /* Pods-googleintegrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrate/Pods-googleintegrate.debug.xcconfig"; sourceTree = "<group>"; };
+		BB18D6F6455931CFB2F5A0EF /* libPods-googleintegrateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleintegrateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AD8155601716041A3C6B19 /* libPods-googleintegrate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-googleintegrate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F551CF95C9DA68E4976509 /* Pods-googleintegrateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleintegrateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-googleintegrateUITests/Pods-googleintegrateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833B2399055BD5C11AB9A8F /* libPods-googleintegrate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C929BCB63D58E88374F545E7 /* libPods-googleintegrateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF73F206F6496EAEE9AD339D /* libPods-googleintegrateUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,13 @@
 		1BF0A9A11EEFEB1E002F6733 = {
 			isa = PBXGroup;
 			children = (
+				1BF0A9E01EEFEC9C002F6733 /* GoogleService-Info.plist */,
 				1BF0A9AC1EEFEB1E002F6733 /* googleintegrate */,
 				1BF0A9C61EEFEB1E002F6733 /* googleintegrateTests */,
 				1BF0A9D11EEFEB1E002F6733 /* googleintegrateUITests */,
 				1BF0A9AB1EEFEB1E002F6733 /* Products */,
+				A8891C6952264D7C34E09A02 /* Pods */,
+				50FDE9805A722A29986467E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +160,29 @@
 			path = googleintegrateUITests;
 			sourceTree = "<group>";
 		};
+		50FDE9805A722A29986467E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4AD8155601716041A3C6B19 /* libPods-googleintegrate.a */,
+				BB18D6F6455931CFB2F5A0EF /* libPods-googleintegrateTests.a */,
+				AB7D7D75DB6F959589E1BDE6 /* libPods-googleintegrateUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8891C6952264D7C34E09A02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA34740E6FBE01E2A9CEEC /* Pods-googleintegrate.debug.xcconfig */,
+				93D5109F721AA669FA8FF720 /* Pods-googleintegrate.release.xcconfig */,
+				7C944CE6DF381999E8B37EEE /* Pods-googleintegrateTests.debug.xcconfig */,
+				90AE90375741FAC7BBDE123B /* Pods-googleintegrateTests.release.xcconfig */,
+				E4F551CF95C9DA68E4976509 /* Pods-googleintegrateUITests.debug.xcconfig */,
+				3BE3D994B02DA1AC79711D6E /* Pods-googleintegrateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF0A9D71EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrate" */;
 			buildPhases = (
+				80FF09F2B9279E2914987EEF /* [CP] Check Pods Manifest.lock */,
 				1BF0A9A61EEFEB1E002F6733 /* Sources */,
 				1BF0A9A71EEFEB1E002F6733 /* Frameworks */,
 				1BF0A9A81EEFEB1E002F6733 /* Resources */,
+				4B0088E3CDB027C7E283783F /* [CP] Embed Pods Frameworks */,
+				3082B74B56ADACF418F08857 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF0A9DA1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateTests" */;
 			buildPhases = (
+				08AA97C1DDB662CBD5187218 /* [CP] Check Pods Manifest.lock */,
 				1BF0A9BF1EEFEB1E002F6733 /* Sources */,
 				1BF0A9C01EEFEB1E002F6733 /* Frameworks */,
 				1BF0A9C11EEFEB1E002F6733 /* Resources */,
+				389A4C0353C5E98374726F8C /* [CP] Embed Pods Frameworks */,
+				96BAD10D8A6E9A86B9C25C3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BF0A9DD1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateUITests" */;
 			buildPhases = (
+				C4CFA5943A99FC9300860F39 /* [CP] Check Pods Manifest.lock */,
 				1BF0A9CA1EEFEB1E002F6733 /* Sources */,
 				1BF0A9CB1EEFEB1E002F6733 /* Frameworks */,
 				1BF0A9CC1EEFEB1E002F6733 /* Resources */,
+				A89E3CFDFCB765C64E827558 /* [CP] Embed Pods Frameworks */,
+				69F26D0FE7CC693B38CBB63F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +298,7 @@
 				1BF0A9BD1EEFEB1E002F6733 /* LaunchScreen.storyboard in Resources */,
 				1BF0A9BA1EEFEB1E002F6733 /* Assets.xcassets in Resources */,
 				1BF0A9B81EEFEB1E002F6733 /* Main.storyboard in Resources */,
+				1BF0A9E11EEFEC9C002F6733 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AA97C1DDB662CBD5187218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3082B74B56ADACF418F08857 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrate/Pods-googleintegrate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389A4C0353C5E98374726F8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrateTests/Pods-googleintegrateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0088E3CDB027C7E283783F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrate/Pods-googleintegrate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F26D0FE7CC693B38CBB63F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrateUITests/Pods-googleintegrateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80FF09F2B9279E2914987EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96BAD10D8A6E9A86B9C25C3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrateTests/Pods-googleintegrateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89E3CFDFCB765C64E827558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-googleintegrateUITests/Pods-googleintegrateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CFA5943A99FC9300860F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BF0A9A61EEFEB1E002F6733 /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		1BF0A9D81EEFEB1E002F6733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFA34740E6FBE01E2A9CEEC /* Pods-googleintegrate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = googleintegrate/Info.plist;
@@ -424,6 +616,7 @@
 		};
 		1BF0A9D91EEFEB1E002F6733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D5109F721AA669FA8FF720 /* Pods-googleintegrate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = googleintegrate/Info.plist;
@@ -435,6 +628,7 @@
 		};
 		1BF0A9DB1EEFEB1E002F6733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C944CE6DF381999E8B37EEE /* Pods-googleintegrateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = googleintegrateTests/Info.plist;
@@ -447,6 +641,7 @@
 		};
 		1BF0A9DC1EEFEB1E002F6733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AE90375741FAC7BBDE123B /* Pods-googleintegrateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = googleintegrateTests/Info.plist;
@@ -459,6 +654,7 @@
 		};
 		1BF0A9DE1EEFEB1E002F6733 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F551CF95C9DA68E4976509 /* Pods-googleintegrateUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = googleintegrateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +666,7 @@
 		};
 		1BF0A9DF1EEFEB1E002F6733 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE3D994B02DA1AC79711D6E /* Pods-googleintegrateUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = googleintegrateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +695,7 @@
 				1BF0A9D91EEFEB1E002F6733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF0A9DA1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +704,7 @@
 				1BF0A9DC1EEFEB1E002F6733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF0A9DD1EEFEB1E002F6733 /* Build configuration list for PBXNativeTarget "googleintegrateUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +713,7 @@
 				1BF0A9DF1EEFEB1E002F6733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
